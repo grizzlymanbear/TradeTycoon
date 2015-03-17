@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DC0A8F4-6A8D-4581-8834-3AB92329D4B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Trade Tycoon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>892792A3E0944B5526E0BEF61F899030CB5E17B0</key>
+		<string>https://github.com/grizzlymanbear/TradeTycoon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Trade Tycoon.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>892792A3E0944B5526E0BEF61F899030CB5E17B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/grizzlymanbear/TradeTycoon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>892792A3E0944B5526E0BEF61F899030CB5E17B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>892792A3E0944B5526E0BEF61F899030CB5E17B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TradeTycoon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
