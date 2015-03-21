@@ -279,7 +279,7 @@
                                 </connections>
                             </button>
                             <tabBar tag="4" contentMode="redraw" barStyle="black" translucent="NO" id="PKR-9S-Hmg">
-                                <rect key="frame" x="0.0" y="592" width="375" height="49"/>
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
