@@ -10,13 +10,21 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    
+    @IBOutlet weak var currentDate: UILabel!
+    @IBOutlet weak var currentFunds: UILabel!
     @IBOutlet weak var quoteLabel: UILabel!
+    
     override func viewDidLoad() {
+        var newStock:Stock;
         super.viewDidLoad()
-        let newStock = Stock(tickerSymbol: "MSFT",startDate: NSDate())
+        let instance = PortfolioSingleton.sharedInstance;
+        newStock = instance.getStock(0)
         quoteLabel.numberOfLines = 0
         quoteLabel.text = newStock.toString()
-        newStock.dateToString();        // Do any additional setup after loading the view, typically from a nib.
+        newStock.dateToString();
+        
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
