@@ -24,8 +24,13 @@ class PortfolioViewController: UIViewController {
     @IBAction func submit(sender: AnyObject) {
         let instance = PortfolioSingleton.sharedInstance;
         instance.addStock(self.ticker.text, date: startDate.date);
-        //instance.setFunds(funds.text.toInt()!)
-        //instance.setDate(startDate.date)
+        var startValue:Int? = 1000;
+        startValue = funds.text.toInt()
+        if(startValue != nil && startValue > 1000){
+            instance.setFunds(startValue!)
+        }
+        instance.setDate(startDate.date)
+        
     }
     
     /*

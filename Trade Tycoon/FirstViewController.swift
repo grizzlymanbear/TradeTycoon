@@ -22,6 +22,12 @@ class FirstViewController: UIViewController {
         newStock = instance.getStock(0)
         quoteLabel.numberOfLines = 0
         quoteLabel.text = newStock.toString()
+        currentFunds.text = "Funds : \(instance.getFunds())"
+        
+        var dateFormatter = NSDateFormatter()
+        dateFormatter.dateStyle = .MediumStyle
+        
+        currentDate.text = dateFormatter.stringFromDate(instance.getDate())
         newStock.dateToString();
         
         // Do any additional setup after loading the view, typically from a nib.
