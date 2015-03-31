@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		451440DE1AB9C997002396F5 /* Cow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 451440DD1AB9C997002396F5 /* Cow.jpg */; };
+		457A3DDC1ACA48720005C761 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A3DDB1ACA48720005C761 /* Stock.swift */; };
 		7F2F60991AB8994500877E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F60981AB8994500877E77 /* AppDelegate.swift */; };
 		7F2F609B1AB8994500877E77 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F609A1AB8994500877E77 /* FirstViewController.swift */; };
 		7F2F609D1AB8994500877E77 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F609C1AB8994500877E77 /* SecondViewController.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		451440DD1AB9C997002396F5 /* Cow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cow.jpg; sourceTree = "<group>"; };
+		457A3DDB1ACA48720005C761 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		7F2F60931AB8994500877E77 /* Trade Tycoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trade Tycoon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2F60971AB8994500877E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F2F60981AB8994500877E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				7FBB8B121AC20D1E00724DB3 /* StockPic.jpg */,
 				451440DD1AB9C997002396F5 /* Cow.jpg */,
 				7FA657441AB8AD46001566F2 /* graph.jpeg */,
+				457A3DDB1ACA48720005C761 /* Stock.swift */,
 				7F2F60981AB8994500877E77 /* AppDelegate.swift */,
 				7F2F609A1AB8994500877E77 /* FirstViewController.swift */,
 				7F2F609C1AB8994500877E77 /* SecondViewController.swift */,
@@ -232,6 +235,7 @@
 			files = (
 				7F2F609D1AB8994500877E77 /* SecondViewController.swift in Sources */,
 				7F2F60991AB8994500877E77 /* AppDelegate.swift in Sources */,
+				457A3DDC1ACA48720005C761 /* Stock.swift in Sources */,
 				7F2F609B1AB8994500877E77 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
